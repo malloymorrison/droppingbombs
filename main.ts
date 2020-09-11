@@ -1,0 +1,23 @@
+input.onButtonPressed(Button.A, function () {
+	
+})
+basic.forever(function () {
+    led.plot(2, 0)
+    basic.pause(200)
+    led.unplot(2, 0)
+    led.plot(2, 1)
+    basic.pause(200)
+    led.unplot(2, 1)
+    led.plot(2, 2)
+    basic.pause(200)
+    led.unplot(2, 2)
+    led.plot(2, 3)
+    basic.pause(200)
+    led.unplot(2, 3)
+    led.plot(2, 4)
+    basic.pause(200)
+    led.unplot(2, 4)
+    led.plot(2, 4)
+    basic.pause(200)
+    led.unplot(2, 4)
+})
